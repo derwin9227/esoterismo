@@ -1,0 +1,17 @@
+@import "./Components/variables.scss";
+
+@font-face {
+  font-family: suisse;
+  src: url("./SuisseIntl-Regular.ttf");
+}
+
+*{
+  font-family: suisse , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgba($color-black, .95);
+}
