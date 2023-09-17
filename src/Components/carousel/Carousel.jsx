@@ -1,6 +1,9 @@
 import "./carousel.scss";
 import React from "react";
 
+import arrowLeft from "../../images/arrow-left.svg";
+import arrowRight from "../../images/arrow-right.svg";
+
 import C1 from "../../images/1.jpg";
 import C2 from "../../images/2.jpg";
 import C3 from "../../images/3.jpg";
@@ -41,8 +44,8 @@ const Carousel = () => {
       
     </div>
       <div className="slider__arrows">
-        <div className="slider__arrows-left" onClick={() => scroll('left')}>&#11160;</div>
-        <div className="slider__arrows-right" onClick={() => scroll('right')}>&#11162;</div>
+        <div className="slider__arrows-left" onClick={() => scroll('left')}> <img src={arrowLeft} alt="left-arrow" /> </div>
+        <div className="slider__arrows-right" onClick={() => scroll('right')}> <img src={arrowRight} alt="left-arrow" /> </div>
       </div>
     </>
   )

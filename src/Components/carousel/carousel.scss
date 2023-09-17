@@ -21,7 +21,7 @@
     &__img{
         flex: 1 0 auto;
         //width: 55%;
-        height: 75%;
+        height: 85%;
         margin: 0 2rem;
         box-shadow: 0 0 5px 0 $color-primary;
         border-radius: 5px;
@@ -30,6 +30,9 @@
     &__arrows{
         display: flex;
         justify-content: space-around;
+        align-items: end;
+        //border: 1px solid white;
+        margin-top: 0;
         //transition: all 3s;
         //margin-top: 4rem;
 
@@ -38,9 +41,20 @@
             height: 30px;
             color: white;
             font-size: 1.5rem;
+            text-align: center;
+
+            img{
+                filter: invert(72%) sepia(7%) saturate(5%) hue-rotate(11deg) brightness(110%) contrast(97%);
+                transition: all .3s;
+
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
 
             &:hover{
                 cursor: pointer;
+                
             }
         }
     }
