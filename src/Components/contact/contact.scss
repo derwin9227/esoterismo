@@ -1,0 +1,92 @@
+@import "../variables.scss";
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background-color: rgba($color-secondary, .15);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+
+    &__heading{
+        color: $color-secondary;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: .7rem;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-input{
+            display: flex;
+            margin: .3rem .5rem;
+            width: 100%;
+            justify-content: space-between;
+            
+            &-name, &-email{
+                border-radius: 5px;
+                border: none;
+                width: 45%;
+                height: 1.5rem;
+                margin-bottom: .7rem;
+                background-color: rgba($color-primary, .15);
+
+                &::placeholder{
+                    text-align: center;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                }
+
+                &:focus{
+                    color: $color-primary;
+                    text-align: center;
+                }
+            }
+        }
+
+        &-subject{
+            border-radius: 5px;
+            border: none;
+            background-color: rgba($color-primary, .15);
+            resize: none;
+            margin-bottom: 1rem;
+            width: 100%;
+
+            &::placeholder{
+                text-align: center;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+            &:focus{
+                color: $color-primary;
+                text-align: center;
+            }
+        }
+        &-button{
+            border: none;
+            border-radius: 15px;
+            width: 10rem;
+            height: 2rem;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+            color: $color-secondary;
+            background-color: rgba($color-secondary, .25);
+            cursor: pointer;
+            margin-bottom: 1rem;
+            transition: all .3s;
+
+            &:hover{
+                background-color: rgba($color-primary, .25);
+            }
+        }
+    }
+}

@@ -7,12 +7,15 @@
     width: 100%;
     justify-content: space-around;
     color: $color-secondary;
+    margin-top: 2rem;
 
     .card{
-        //border: 1px solid white;
+        background-color: rgba($color-secondary, .15);
+        border-radius: 5px;
         display: flex;
         flex-direction: column;
         width: 30%;
+
 
         img{
             height: 35%;
@@ -22,6 +25,8 @@
         p{
             text-align: center;
             margin: .3rem;
+            margin-bottom: 1rem;
+
         }
     }
 }
