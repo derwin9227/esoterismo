@@ -90,3 +90,11 @@
         }
     }
 }
+
+@media (max-width: 420px){
+    .contact__form{
+        &-input, &-subject{
+            width: 95%;
+        }
+    }
+}
