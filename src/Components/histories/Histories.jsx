@@ -1,9 +1,12 @@
+import Card from "./Card";
 import "./histories.scss";
 
 const Histories = () => {
   return (
-    <section id="histories">
-      histories
+    <section id="histories" className="histories">
+      <Card />
+      <Card />
+      <Card />
     </section>
   )
 }

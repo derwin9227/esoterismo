@@ -1,0 +1,27 @@
+@import "../variables.scss";
+
+.histories{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    color: $color-secondary;
+
+    .card{
+        //border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+
+        img{
+            height: 35%;
+            width: 40%;
+            margin: .7rem auto;
+        }
+        p{
+            text-align: center;
+            margin: .3rem;
+        }
+    }
+}

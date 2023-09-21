@@ -23,8 +23,9 @@
         //width: 55%;
         height: 85%;
         margin: 0 2rem;
-        box-shadow: 0 0 5px 0 $color-primary;
+        //box-shadow: 0 0 5px 0 $color-primary;
         border-radius: 5px;
+        animation: parpadeo 3.5s infinite ease-in-out;
     }
 
     &__arrows{
@@ -58,4 +59,10 @@
             }
         }
     }
+}
+
+@keyframes parpadeo {
+    0%{box-shadow: 0 0 1px 0 $color-primary;}
+    50%{box-shadow: 0 0 7px 0 $color-primary;}
+    100%{box-shadow: 0 0 1px 0 $color-primary;}
 }
