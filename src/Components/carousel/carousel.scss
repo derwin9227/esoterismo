@@ -2,7 +2,7 @@
 
 .slider{
     display: flex;
-    height: 40vh;
+    height: 50vh;
     width: 90vw;
     flex-wrap: nowrap;
     overflow-x: scroll;
@@ -21,7 +21,7 @@
     &__img{
         flex: 1 0 auto;
         //width: 55%;
-        height: 85%;
+        height: 75%;
         margin: 0 2rem;
         //box-shadow: 0 0 5px 0 $color-primary;
         

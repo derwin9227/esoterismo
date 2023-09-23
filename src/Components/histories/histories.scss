@@ -2,26 +2,31 @@
 
 .histories{
     display: flex;
-    //flex-direction: row;
-    //text-align: center;
-    //align-items: center;
     margin: auto;
     width: 95%;
     justify-content: space-around;
     color: $color-secondary;
     margin-top: 2rem;
+    flex-wrap: wrap;
+    letter-spacing: 1.2px;
 
     .card{
         background-color: rgba($color-secondary, .15);
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 20%;
+        padding: .5rem;
+        //height: 70vh;
 
         img{
-            height: 35%;
+            //height: 35%;
             width: 40%;
             margin: .7rem auto;
+            border-radius: 50%;
+            opacity: .7;
+            border: 2px solid black;
+            filter: invert(82%) sepia(66%) saturate(1%) hue-rotate(261deg) brightness(111%) contrast(73%);
         }
         p{
             text-align: center;
@@ -43,10 +48,16 @@
             width: 85%;
             margin-bottom: 1.5rem;
 
-            img{
-                height: 60%;
-                width: 25%;
-            }
+        }
+    }
+}
+@media (max-width: 900px){
+    .histories{
+        flex-wrap: wrap;
+        
+        .card{
+            width: 45%;
+            margin-bottom: 1rem;
         }
     }
 }

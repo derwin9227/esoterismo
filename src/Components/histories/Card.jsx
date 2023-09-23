@@ -1,11 +1,10 @@
-import union from "../../images/sol.png";
-
-const Card = () => {
+// eslint-disable-next-line react/prop-types
+const Card = ( { user, img } ) => {
   return (
     <div className="card">
-        <img src={union} alt="sol" />
+        <img src={img} alt="sol" />
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi, repellat illo exercitationem commodi pariatur?
+          {user}
         </p>
     </div>
   )
