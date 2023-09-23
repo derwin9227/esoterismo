@@ -12,8 +12,8 @@ const Histories = () => {
   return (
     <section id="histories" className="histories">
         <Card user={carla} img={mujer}/>
-        <Card user={alexis} img={mujer}/>
         <Card user={alejandra} img={hombre}/>
+        <Card user={alexis} img={mujer}/>
         <Card user={luis} img={hombre}/>
     </section>
   )
