@@ -92,10 +92,25 @@
     }
 }
 
-@media (max-width: 420px){
+@media (max-width: 530px){
     .contact__form{
         &-input, &-subject{
             width: 95%;
+        }
+    }
+}
+
+@media (max-width: 420px){
+    .contact{
+        //object-fit: contain;
+        &__heading{
+            font-size: 1rem;
+        }
+        &__form{
+
+            &-input, &-subject{
+                width: 95%;
+            }
         }
     }
 }

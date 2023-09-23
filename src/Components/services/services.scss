@@ -26,10 +26,12 @@
         &-heading{
             margin-bottom: .7rem;
             letter-spacing: 5px;
+            //text-align: justify;
             
         }
         &-paragraph{
             line-height: 1.2;
+            text-align: justify;
         }
     }
 }
