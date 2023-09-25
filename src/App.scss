@@ -1,12 +1,12 @@
 @import "./Components/variables.scss";
 
 @font-face {
-  font-family: suisse;
-  src: url("./SuisseIntl-Regular.ttf");
+  font-family: inter;
+  src: url("./Inter-VariableFont_slnt\,wght.ttf");
 }
 
 *{
-  font-family: suisse , sans-serif;
+  font-family: inter;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
