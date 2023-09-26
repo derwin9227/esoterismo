@@ -1,7 +1,9 @@
 import Card from "./Card";
 import "./histories.scss";
-import hombre from "../../images/hombre.png";
-import mujer from "../../images/mujer.png";
+import hombre1 from "../../images/persona1.jpg";
+import hombre2 from "../../images/persona4.jpg";
+import mujer1 from "../../images/persona2.jpg";
+import mujer2 from "../../images/persona3.jpg";
 
 let carla = "Mi matrimonio de apenas unos 5 años se estaría desgastando sin razón aparente. El deseo se estaría perdiendo y no entendía por qué. Mi marido no tenía explicación para lo que nos estaría ocurriendo, por lo que llegamos a encontrarnos muy preocupados al respecto. Sin más soluciones en la mesa, recurrí a estos servicios gracias a las referencias que mis amistades me habían comentado. Luego de probar mi primer amarre de amor, mi marido encontró en sí los deseos que por mucho tiempo habían desaparecido. Desde hace cuatro meses somos una pareja feliz y con deseos de tener hijos.",
             alexis ="Gracias a los métodos del servicio de amarres, la relación de mis sueños se hizo posible. Finalmente logré estar con Andrea. Y hoy, a nuestro primer año de noviazgo, no puedo estar más agradecido con los amarres de amor. Cuando escuché mi primer testimonio de amor no podía creer la efectividad de este método hasta que pude comprobarlo por mi propia cuenta.",
@@ -11,10 +13,10 @@ let carla = "Mi matrimonio de apenas unos 5 años se estaría desgastando sin ra
 const Histories = () => {
   return (
     <section id="histories" className="histories">
-        <Card user={carla} img={mujer}/>
-        <Card user={alejandra} img={hombre}/>
-        <Card user={alexis} img={mujer}/>
-        <Card user={luis} img={hombre}/>
+        <Card user={carla} img={mujer1}/>
+        <Card user={alexis} img={hombre1}/>
+        <Card user={alejandra} img={mujer2}/>
+        <Card user={luis} img={hombre2}/>
     </section>
   )
 }

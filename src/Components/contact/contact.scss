@@ -43,9 +43,11 @@
                 height: 1.5rem;
                 margin-bottom: .7rem;
                 background-color: rgba($color-primary, .15);
+                color: $color-primary;
+                padding-left: .3rem;
 
                 &::placeholder{
-                    //text-align: center;
+                    text-align: left;
                     padding-left: .6rem;
                     font-weight: bold;
                     letter-spacing: 1px;
@@ -53,7 +55,8 @@
 
                 &:focus{
                     color: $color-primary;
-                    text-align: center;
+                    //padding-right: .1rem;
+                    //text-align: center;
                 }
             }
         }
@@ -65,9 +68,11 @@
             resize: none;
             margin-bottom: 1rem;
             width: 100%;
+            color: $color-primary;
+            padding-left: .3rem;
 
             &::placeholder{
-                //text-align: center;
+                text-align: left;
                 padding-left: .6rem;
                 padding-top: .3rem;
                 font-weight: bold;
@@ -76,7 +81,7 @@
 
             &:focus{
                 color: $color-primary;
-                text-align: center;
+                //text-align: center;
             }
         }
         &-button{
