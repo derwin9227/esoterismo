@@ -40,21 +40,24 @@
                 border-radius: 5px;
                 border: none;
                 width: 40%;
-                height: 1.5rem;
-                margin-bottom: .7rem;
+                height: 1.7rem;
+                margin-bottom: .8rem;
                 background-color: rgba($color-primary, .15);
                 color: $color-primary;
-                padding-left: .3rem;
+                //padding-left: .3rem;
+                padding-left: 6px;
+                text-align: start;
 
                 &::placeholder{
-                    text-align: left;
-                    padding-left: .6rem;
+                    //text-align: left;
+                    //padding-left: 6px;
                     font-weight: bold;
                     letter-spacing: 1px;
                 }
 
                 &:focus{
                     color: $color-primary;
+                    //padding-left: 6px;
                     //padding-right: .1rem;
                     //text-align: center;
                 }
@@ -69,11 +72,11 @@
             margin-bottom: 1rem;
             width: 100%;
             color: $color-primary;
-            padding-left: .3rem;
+            padding-left: 6px;
 
             &::placeholder{
                 text-align: left;
-                padding-left: .6rem;
+                //padding-left: .6rem;
                 padding-top: .3rem;
                 font-weight: bold;
                 letter-spacing: 1px;
@@ -111,12 +114,21 @@
     .contact{
         width: 90%;
         font-size: 1rem;
+
+        &__heading{
+            letter-spacing: .2rem;
+        }
     }
 }
 
 @media (max-width: 530px){
     .contact{
         width: 75%;
+
+        &__heading{
+            letter-spacing: 1.1px;
+        }
+
         &__heading{
             font-size: 1.2rem;
         }
