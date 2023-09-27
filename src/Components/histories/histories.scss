@@ -20,13 +20,14 @@
         margin-bottom: 1rem;
 
         img{
-            //height: 35%;
-            width: 40%;
+            height: 10rem;
+            width: 10rem;
             margin: .7rem auto;
             border-radius: 10px;
             //opacity: .7;
             //border: 2px solid black;
             //filter: invert(82%) sepia(66%) saturate(1%) hue-rotate(261deg) brightness(111%) contrast(73%);
+
         }
         p{
             text-align: center;
@@ -45,6 +46,11 @@
         .card{
             width: 45%;
             margin-bottom: 1rem;
+
+            img{
+                height: 8rem;
+                width: 8rem;
+            }
         }
     }
 }
@@ -59,6 +65,11 @@
             width: 80%;
             margin-bottom: 1.5rem;
             //border: 1px solid white;
+
+            img{
+                height: 6rem;
+                width: 6rem;
+            }
         }
     }
 }
