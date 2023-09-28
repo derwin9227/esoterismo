@@ -11,6 +11,7 @@ const About = () => {
         <div className="contact__form-input">
               <input className="contact__form-input-name" name="nombre" type="text" placeholder="Nombre"/>
               <input className="contact__form-input-email" name="correo" type="text" placeholder="Correo"/>
+              <input className="contact__form-input-telf" name="telefono" type="text" placeholder="Telefono"/>
         </div>
         <textarea name="asunto"
                cols="30" rows="5"
