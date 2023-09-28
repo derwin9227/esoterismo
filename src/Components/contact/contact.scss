@@ -16,21 +16,23 @@
         color: $color-secondary;
         font-size: 1.5rem;
         margin-top: 1rem;
-        margin-bottom: .7rem;
+        margin-bottom: 1rem;
         letter-spacing: .4rem;
     }
 
     &__form{
         display: flex;
         flex-direction: column;
+        align-items: center;
         //align-items: center;
         width: 90%;
 
         &-input{
             display: flex;
+            flex-direction: row;
             //margin: .3rem .5rem;
             width: 100%;
-            //justify-content: space-between;
+            //justify-content: center;
 
             &-name {
                 margin-right: 1rem;
