@@ -29,7 +29,7 @@
 
         &-input{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             //margin: .3rem .5rem;
             width: 100%;
             //justify-content: center;
@@ -41,7 +41,7 @@
             &-name, &-email{
                 border-radius: 5px;
                 border: none;
-                width: 40%;
+                width: 60%;
                 height: 1.7rem;
                 margin-bottom: .8rem;
                 background-color: rgba($color-primary, .15);
