@@ -37,6 +37,11 @@
             &-name {
                 margin-right: 1rem;
             }
+            &-telf{
+                &::-webkit-inner-spin-button, &::-webkit-outer-spin-button{
+                    -webkit-appearance: none;
+                }
+            }
             
             &-name, &-email, &-telf{
                 border-radius: 5px;
@@ -76,11 +81,13 @@
             resize: none;
             margin-bottom: 1rem;
             width: 100%;
+            height: 6rem;
             color: $color-primary;
             padding-left: 6px;
 
             &::placeholder{
                 text-align: left;
+                /* transform: translateY(-150%); */
                 //padding-left: .6rem;
                 padding-top: .3rem;
                 font-weight: bold;
