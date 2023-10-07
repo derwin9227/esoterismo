@@ -73,6 +73,22 @@
                 width: 35%;
             }
         }
+        &-errors{
+            color: rgba(200,200,10, .75);
+            margin-left: .7rem;
+            margin-top: -.4rem;
+            margin-bottom: .5rem;
+            font-size: .7rem;
+
+            &_subject{
+                align-self: flex-start;
+                color: rgba(200,200,10, .75);
+                font-size: .7rem;
+                margin-left: 1rem;
+                margin-top: -.7rem;
+                margin-bottom: .5rem;
+            }
+        }
 
         &-subject{
             border-radius: 5px;
@@ -99,6 +115,7 @@
                 //text-align: center;
             }
         }
+        
         &-button{
             border: none;
             align-self: center;
